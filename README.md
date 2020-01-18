@@ -14,5 +14,17 @@ prediction results would help Homesite better understand the impact of proposed 
 maintain an ideal portfolio of customer segments. 
 ```
 
-2. Direct marketing conversion prediction for a bank 
-3. Fraud detection for an auto insurance company 
+2. Identifying products with similar time series
+
+3. Clustering of products based on annual spending figures 
+```
+###Problem Statement
+The annual spending figures of customers of a wholesaler in Portugal that operates in different regions 
+are provided. The products sold by the wholeseller are: fresh produce, milk products, grocery, frozen 
+products, detergents, paper, and delicatessen. It has two groups of customers or channels, Horeca
+(hotels/restaurants/cafes) and retail. It services three regions (Lisbon, Oporto and other). The annual 
+spending figures are provided for each product type for each region and channel combination.
+
+###Analysis Conducted
+Performed K-means clustering on the basis of annual spending on different product types and then related those cluster characteristics to the annual spending figures based on region and channel. 
+```
